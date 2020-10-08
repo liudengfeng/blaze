@@ -3,7 +3,7 @@ from __future__ import absolute_import, division, print_function
 import sys
 from types import MethodType
 
-import pandas.util.testing as tm
+import pandas.testing as tm
 from toolz import identity
 
 PY3 = sys.version_info[0] == 3
